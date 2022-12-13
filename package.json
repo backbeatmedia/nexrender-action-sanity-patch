@@ -1,0 +1,19 @@
+{
+  "name": "nexrender-action-sanity-patch",
+  "version": "1.0.0",
+  "description": "Modifies Sanity documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backbeatmedia/nexrender-action-sanity-patch.git"
+  },
+  "author": "Jeremy Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/backbeatmedia/nexrender-action-sanity-patch/issues"
+  },
+  "homepage": "https://github.com/backbeatmedia/nexrender-action-sanity-patch#readme"
+}
