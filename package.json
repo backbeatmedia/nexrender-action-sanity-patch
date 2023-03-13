@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/backbeatmedia/nexrender-action-sanity-patch/issues"
   },
+  "dependencies": {
+    "@sanity/client": "^5.2.2"
+  },
   "homepage": "https://github.com/backbeatmedia/nexrender-action-sanity-patch#readme"
 }
