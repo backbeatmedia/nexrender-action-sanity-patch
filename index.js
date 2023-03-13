@@ -1,5 +1,5 @@
-const requireg=require('requireg');
-const { createClient } = requireg('@sanity/client')
+
+const { createClient } = require('@sanity/client')
 
 module.exports = async (
   job,
