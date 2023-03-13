@@ -1,5 +1,5 @@
 const requireg=require('requireg');
-const sanityClient = requireg('@sanity/client')
+const { createClient } = requireg('@sanity/client')
 
 module.exports = async (
   job,
@@ -15,7 +15,7 @@ module.exports = async (
 ) => {
 
   // make a Sanity client
-  const client = sanityClient(params)
+  const client = createClient(params)
 
   // patch the new asset into the field
   await client.patch(document)
