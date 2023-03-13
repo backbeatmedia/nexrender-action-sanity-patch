@@ -1,4 +1,5 @@
-const sanityClient = require('@sanity/client')
+const requireg=require('requireg');
+const sanityClient = requireg('@sanity/client')
 
 module.exports = async (
   job,
